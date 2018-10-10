@@ -29,7 +29,9 @@ class ViewController: UIViewController {
             scoreLabel.text = String(score)
         }
     }
-    
+    var sliderValue: Int {
+        return Int(slider.value.rounded())
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         score = 0
@@ -42,20 +44,22 @@ class ViewController: UIViewController {
     }
     
     private func calculateDifference() -> Int {
-        let sliderValue = Int(slider.value.rounded())
         return abs(targetValue - sliderValue)
     }
     
     private func addPoints(for difference: Int) -> Int {
         let points = 100 - difference
-        score += points
-        return points
+        let bonusPoints = difference == 0 ? 100 : 0
+        let totalPoints = points + bonusPoints
+        score += totalPoints
+        return totalPoints
     }
+    
     @IBAction func showAlert() {
         let difference = calculateDifference()
         let points = addPoints(for: difference)
+        var message = "You scored \(points) points. \n The slider value was \(sliderValue)."
         var title = ""
-        var message = "You scored \(points) points."
         func setTitle() {
             switch difference {
             case 0:
@@ -63,9 +67,9 @@ class ViewController: UIViewController {
             case 1...5:
                 title = "Very close!"
             case 6...10:
-                title = "Close!"
+                title = "Pretty good!"
             default:
-                break
+                title = "Not even close."
             }
         }
         setTitle()
