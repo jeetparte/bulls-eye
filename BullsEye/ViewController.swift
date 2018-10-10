@@ -55,6 +55,12 @@ class ViewController: UIViewController {
         return totalPoints
     }
     
+    @IBAction func resetGame() {
+        score = 0
+        round = 0
+        startNewRound()
+    }
+    
     @IBAction func showAlert() {
         let difference = calculateDifference()
         let points = addPoints(for: difference)
