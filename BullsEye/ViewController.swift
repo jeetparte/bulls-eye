@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
@@ -30,6 +29,7 @@ class ViewController: UIViewController {
             scoreLabel.text = String(score)
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         startNewRound()
@@ -45,11 +45,8 @@ class ViewController: UIViewController {
         let message = "The value of the slider is: \(sliderValue)" +
         "\nThe value of the target is: \(targetValue)"
         let alert = UIAlertController(title: "Hello, World!", message: message, preferredStyle: .alert)
-        
         let action = UIAlertAction(title: "Ok", style: .default, handler: { (action) in self.startNewRound() })
-        
         alert.addAction(action)
-        
         present(alert, animated: true, completion: nil)
     }
 }
