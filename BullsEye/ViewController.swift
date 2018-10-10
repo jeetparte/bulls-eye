@@ -34,8 +34,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        score = 0
-        startNewRound()
+        startNewGame()
     }
     
     func startNewRound() {
@@ -55,7 +54,7 @@ class ViewController: UIViewController {
         return totalPoints
     }
     
-    @IBAction func resetGame() {
+    @IBAction func startNewGame() {
         score = 0
         round = 0
         startNewRound()
