@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             case 6...10:
                 title = "Pretty good!"
             default:
-                title = "Not even close."
+                title = "Not even close..."
             }
         }
         setTitle()
