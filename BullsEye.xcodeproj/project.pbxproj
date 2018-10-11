@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9178AED216F5FF3003AEEF1 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C9178AEC216F5FF3003AEEF1 /* BullsEye.html */; };
 		C95A9955216B9D5500A552CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A9954216B9D5500A552CD /* AppDelegate.swift */; };
 		C95A9957216B9D5500A552CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A9956216B9D5500A552CD /* ViewController.swift */; };
 		C95A995A216B9D5500A552CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95A9958216B9D5500A552CD /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9178AEC216F5FF3003AEEF1 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		C95A9951216B9D5500A552CD /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95A9954216B9D5500A552CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95A9956216B9D5500A552CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				C95A995B216B9D5700A552CD /* Assets.xcassets */,
 				C95A995D216B9D5700A552CD /* LaunchScreen.storyboard */,
 				C95A9960216B9D5700A552CD /* Info.plist */,
+				C9178AEC216F5FF3003AEEF1 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C95A995F216B9D5700A552CD /* LaunchScreen.storyboard in Resources */,
+				C9178AED216F5FF3003AEEF1 /* BullsEye.html in Resources */,
 				C95A995C216B9D5700A552CD /* Assets.xcassets in Resources */,
 				C95A995A216B9D5500A552CD /* Main.storyboard in Resources */,
 			);
@@ -291,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93AR4Y346;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P93AR4Y346;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
