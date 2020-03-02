@@ -3,7 +3,7 @@
 
 This is a game I made as part of a [raywenderlich.com iOS learning course][1]. It covered iOS 11 and Swift 4.
 
-This was a basic course. Some of the topics that were covered in this course:
+This was a basic course. Some of the topics that were covered:
 
 * using various UI elements - buttons, sliders etc. and styling them.
 * hooking up UI to code - using Interface Builder with the  `@IBAction` and `@IBOutlet` attributes.
@@ -26,7 +26,7 @@ Your goal is to place the slider as close as possible to the target value. The c
 
 The *watch on piano* picture above was clicked by me.
 
-It's a photo of my Timex weekender watch on my piano. I entered the photo in a watch photography competition and although I didn't win, I'm happy with the photos and the efforts, which let me indulge my creativity.
+It's a photo of my Timex weekender watch on my piano. I entered the photo in a watch photography competition and although it didn't win, I'm happy with the photos and the efforts, which let me indulge my creativity.
 
 
 
