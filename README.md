@@ -6,7 +6,7 @@ This is a game I made as part of a [raywenderlich.com iOS learning course][1]. I
 This was a basic course. Some of the topics that were covered in this course:
 
 * using various UI elements - buttons, sliders etc. and styling them.
-* hooking up UI to code - via IBActions and IBOutlets.
+* hooking up UI to code - using Interface Builder with the  `@IBAction` and `@IBOutlet` attributes.
 * making use of [web views][2] to display web pages.
 * basics of [AutoLayout][3].
 
