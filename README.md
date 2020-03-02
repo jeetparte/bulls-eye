@@ -26,7 +26,7 @@ Your goal is to place the slider as close as possible to the target value. The c
 
 The *watch on piano* picture above was clicked by me.
 
-It's a photo of my Timex weekender watch on my piano. I entered the photo in a watch photography competition and although it didn't win, I'm happy with the photos and the efforts, which let me indulge my creativity.
+It's a photo of my Timex weekender watch on my piano. I entered the photo in a watch photography competition and although it didn't win, I'm happy with the photos, and the efforts, which let me indulge my creativity.
 
 
 
